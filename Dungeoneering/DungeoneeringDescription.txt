@@ -1,0 +1,18 @@
+Dungeoneering
+
+Assume you have some array of non-negative integers of an unspecified length. For example,
+
+[4, 3, 0, 2, 1, 2, 4, 3]
+
+Suppose this array represents a canyon, and each element is a pillar within the canyon. Starting at the first pillar (in this case, 4), your goal is to exit the canyon by stepping through it. 
+
+Each pillar's value is the number of steps forward that can be taken from that pillar. In our case, from the first pillar, we can step all the way to the sixth pillar, or any pillar before that. Once at our new pillar, the value of the new pillar alone determines how many steps we can move forward. In other words, there is no carry over from "leftover" steps from the previous jump.
+
+Your task is to return a list representing the shortest path to exit the canyon (moving past the final pillar). If no path exists, return false. In some cases, there may be multiple paths of the same length. In our case, acceptable answers include:
+
+[4, 1, 2, 3]
+[4, 2, 2, 3]
+[4, 2, 2, 4]
+[4, 1, 2, 4]
+
+Remember, you have to move past the final pillar, and must start at the initial pillar.
