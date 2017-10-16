@@ -1,0 +1,12 @@
+Trees: Is this a Binary Search Tree?
+From https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem
+
+Determine if a given binary tree is a binary search tree.
+
+The properties of a binary search tree are:
+* The data value of every node in a node's left subtree is less than the data value of that node
+* The data value of every node in a node's right subtree is greater than the data value of that node
+
+0 <= data <= 10^4
+
+No input or output, simply return *true* if it is a binary search tree and *false* if not.
