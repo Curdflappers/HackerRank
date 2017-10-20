@@ -1,0 +1,4 @@
+From https://www.hackerrank.com/challenges/ctci-merge-sort/problem
+
+Implement a merge sort, and count how many inversions (as in bubble inversions) are required to sort the array
+Because of the size of the array, O(N^2) time is too slow. The algorithm must run in O(NlogN) time.
