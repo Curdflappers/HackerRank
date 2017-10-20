@@ -23,19 +23,13 @@ def isBalanced(s):
   
   return False
 
-def trueToYes(val):
-    print(val)
-    if (val == True):
-        return "YES"
-    return "NO"
-
 
 if __name__ == "__main__":
     t = int(input().strip())
     for a0 in range(t):
         s = input().strip()
         result = isBalanced(s)
-        if result == True:
+        if result:
             print("YES")
         else:
             print("NO")
